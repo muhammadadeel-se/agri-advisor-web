@@ -4,6 +4,7 @@ A Streamlit web application wrapping a schema-validated, tool-calling agricultur
 
 ## Live Demo
 * **Public App URL:** https://agri-advisor-web-dsyjbsntvzqo679pwtwgza.streamlit.app/
+* **Demo Mode Notice:** The live deployment runs in **Offline Demo Mode** without an API key (`DemoFallbackClient`), so single-turn ZIP weather and explicit `N/P/K` crop queries execute the real tools and safety guardrails while open-ended or multi-turn prompts return canned guidance until an `OPENAI_API_KEY` is entered in the sidebar.
 * **Client Handover Documentation:** See [`HANDOVER.md`](HANDOVER.md) for architecture, token cost estimates, safe agronomic limits, and maintenance procedures.
 
 ## Key Features
