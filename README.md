@@ -3,7 +3,7 @@
 A Streamlit web application wrapping a schema-validated, tool-calling agricultural advisor with multi-layer input/output safety guardrails, audit logging, and offline demo fallback support.
 
 ## Live Demo
-* **Public App URL:** `<PASTE_YOUR_STREAMLIT_CLOUD_OR_HF_SPACE_URL_HERE>`
+* **Public App URL:** https://agri-advisor-web-dsyjbsntvzqo679pwtwgza.streamlit.app/
 * **Client Handover Documentation:** See [`HANDOVER.md`](HANDOVER.md) for architecture, token cost estimates, safe agronomic limits, and maintenance procedures.
 
 ## Key Features
